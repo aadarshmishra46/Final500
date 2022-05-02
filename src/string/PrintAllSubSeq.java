@@ -11,7 +11,7 @@ public class PrintAllSubSeq {
             System.out.print(st + " ");
         }
 
-    }//abc
+    }
     public void solve( List<String> list , String str,String subStr ,int start , int n) {
 
         if(start >= n) {

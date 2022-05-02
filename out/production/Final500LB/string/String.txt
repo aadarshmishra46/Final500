@@ -15,7 +15,6 @@ s1-->abc                               xyz
 
 
 
-
 heap           scp
 x               abc
 
@@ -37,7 +36,18 @@ abcxyz            xyz
 
 ------------------.scp
 Garbage
+StringBuffer                    String
+/*
+
+
 
 String s= new String("abc"); 10   ===>200
 heap              scp
 s->abc             abc
+
+
+
+final                         immutablity'
+variable                       object--
+final int x=20;                      String s="abc";
+x=30;                                   s="xyz"
